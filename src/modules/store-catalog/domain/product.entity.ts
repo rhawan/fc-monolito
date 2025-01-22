@@ -27,7 +27,7 @@ export default class Product extends BaseEntity implements AggregateRoot {
     }
 
     get description(): string {
-        return this.description;
+        return this._description;
     }
 
     get salesPrice(): number {
